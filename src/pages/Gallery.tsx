@@ -1,6 +1,6 @@
 import {  useState } from 'react'
 import { GalleryConstant } from '../constant/constant'
-import {  motion,  useScroll, useTransform } from 'framer-motion'
+import {  motion } from 'framer-motion'
 import { opacityAnimation } from '../animation/motion'
 
 const Gallery = () => {
