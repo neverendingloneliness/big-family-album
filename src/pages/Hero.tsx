@@ -1,4 +1,3 @@
-import React from 'react'
 import heroImage from '../assets/hero/hero.jpeg';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { slideUpAnimation } from '../animation/motion';

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import ending from "../assets/ending/bg.png";
 import { motion, useScroll, useTransform } from 'framer-motion';
 
