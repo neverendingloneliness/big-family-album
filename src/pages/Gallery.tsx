@@ -17,9 +17,6 @@ const Gallery = () => {
         }
     }
 
-    const { scrollYProgress } = useScroll()
-
-    const opacity = useTransform(scrollYProgress, [0.1, 0.5], [200, 1])
 
     return (
         <div className='min-h-screen '>
