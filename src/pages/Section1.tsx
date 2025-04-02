@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Section1Constant } from "../constant/constant";
 import { motion, useScroll, useTransform } from "motion/react";
-import { scaleRotateLeftAnimation, scaleRotateRightAnimation, slideUpAnimation } from "../animation/motion";
-import { easeOut, spring } from "motion";
+import { scaleRotateLeftAnimation, scaleRotateRightAnimation} from "../animation/motion";
+import { easeOut} from "motion";
 
 const Section1 = () => {
 

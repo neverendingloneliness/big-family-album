@@ -1,8 +1,7 @@
-import React, { useRef, useState } from 'react'
+import {  useState } from 'react'
 import { GalleryConstant } from '../constant/constant'
-import { animate, AnimatePresence, motion, spring, useScroll, useTransform } from 'framer-motion'
-import { div, i } from 'motion/react-client'
-import { opacityAnimation, slideUpAnimation, slideUpAnimationReversed } from '../animation/motion'
+import {  motion,  useScroll, useTransform } from 'framer-motion'
+import { opacityAnimation } from '../animation/motion'
 
 const Gallery = () => {
 
